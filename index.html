@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>AOS Page</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1><span>Non-stop</span> Gallery</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, ipsa.</p>
+    </header>
+    <main class="container">
+        <section class="card">
+            <img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg" alt="">
+            <div>
+                <h3>Photo One</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg" alt="" >
+            <div>
+                <h3>Photo Two</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src=" http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg" alt="" >
+            <div>
+                <h3>Photo Three</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left" id="anchor">
+            <img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg" alt="" >
+            <div>
+                <h3>Photo Four</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right" data-aos-anchor="#anchor">
+            <img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg " alt="" >
+            <div>
+                <h3>Photo Five</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg" alt="" >
+            <div>
+                <h3>Photo Six</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, iusto natus! Error voluptate delectus a cumque placeat, voluptatum eos reiciendis quos, omnis ipsam eligendi minus, repellat esse. Qui, ad porro.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
+</body>
+</html>
